@@ -35,14 +35,19 @@
         <H2 class="titulo">Cadastro de Médico</H2>
 
         <form action="CadastroMedicoServlet" method="post">
+
             <label for="crm">CRM: </label><br>
             <input class="caixa-de-texto" type="text" name="crm" id="crm"><br>
+
             <label for="nome">Nome do Médico: </label><br>
             <input class="caixa-de-texto" type="text" name="nome" id="nome"><br>
+           
             <label for="salario">Salário: </label><br>
             <input class="caixa-de-texto" type="text" name="salario" id="salario"><br>
+            
             <label for="especialidade">Especialidade: </label><br>
             <input class="caixa-de-texto" type="text" name="especialidade" id="especialidade"><br><br>
+            
             <input type="submit" value="Cadastrar"></form>
 
     </div>
