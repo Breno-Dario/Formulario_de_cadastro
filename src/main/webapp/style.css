@@ -1,0 +1,78 @@
+
+    body{
+        font-family: gotham, arial, helvetica, sans-serif;
+        background-color: aquamarine;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .container {
+        background-image: url("imagens/90458413_SL-040820-29750-40.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+
+
+nav {
+    background-color: rgb(37, 69, 110);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+.conten {
+    position: absolute;
+    top: 15%;
+
+}
+.caixa {
+    width: 250px;
+    height: 255px;
+    background-color: rgba(156, 206, 210, 0.81);
+    border: 2px solid rgb(13, 52, 89);
+    margin: 0 auto;
+    padding: 200px;
+}
+
+.img {
+    width: 80%;
+    position: fixed;
+}
+.bt {
+    display: block;
+}
+
+    .titulo {
+        color: #25456e;
+        font-family: 'Poppins';
+        font-style: bold;
+        font-size: 2em;
+        text-align: center;
+        margin-top: 1em;
+    }
+    .caixa-de-texto {
+        width: 200px;
+        padding: 10px;
+        border: 1px solid #9cced2;
+        border-radius: 14px;
+    }
+
