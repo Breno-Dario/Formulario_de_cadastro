@@ -38,7 +38,6 @@
         <form action="EspecialidadeServlet" method="post">
 
             <label for="nome">Especialidade: </label><br>
-
             <input class="caixa-de-texto" type="text" name="nome" id="nome"><br><br>
 
             <input type="submit" value="Cadastrar">
